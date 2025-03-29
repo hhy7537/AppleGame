@@ -62,7 +62,7 @@ namespace AppleGame.Objects
         // 마우스 드래그 영역을 벗어날 때 호출
         public void OnDeselected()
         {
-            _appleImage.color = Color.red;
+            _appleImage.color = new Color(1f, 0.5f, 0f, 1f);
         }
     }
 }
