@@ -240,7 +240,7 @@ namespace AppleGame.Stage
 
         public void SetResultScoreText(float resultScore)
         {
-            _resultScoreText.text = $"<color=red>Score</color>\n<color=green>{resultScore}</color>";
+            _resultScoreText.text = $"<color=red>score</color>\n<color=green>{resultScore}</color>";
         }
     }
 }
